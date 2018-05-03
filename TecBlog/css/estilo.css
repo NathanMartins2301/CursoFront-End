@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #F3F3F3;
+	font-size: 16px; 
+	font-family: "Trebuchet", Helvetica, sans-serif;
+	
+}
+
+#navegacao {
+	background: #FFF;		
+	height: 45px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+}
+
+#area {
+	margin: 0 auto;
+	width: 720px;
+}
+
+#navegacao #area h1#logo {
+	float: left;
+}
+
+#navegacao #area #menu {
+	float: right;
+	padding: 10px 0;
+}
+/*Formatação do menu*/
+#navegacao #area #menu a{
+	padding: 5px 10px;
+	text-decoration:none;
+}
+#navegacao #area #menu a:link, #navegacao #area #menu a:visited{
+	color: #838383;
+}
+#navegacao #area #menu a:hover {
+	color: #fff;
+	background: #b9c941;
+}
+#navegacao #area span#verde, h2 {
+	color:#b9c941;
+}
+
+/*Postagem*/
+#area-p {
+	margin-top: 55px;
+}
+.area-principal {
+	margin: 10px auto;
+	width: 720px;
+}
+
+.area-principal .postagem {
+	background: #fff;
+	padding: 10px;
+}
+
+.area-principal .postagem .data-postagem {
+	border-bottom: 1px solid #F4F4F4;
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.area-principal .postagem img.img-postagem{
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+.area-principal .postagem span.postado{
+	border-left: 5px solid #d8d8d8;
+	padding-left: 5px;
+	display: block;
+	margin-top: 10px; 
+}
